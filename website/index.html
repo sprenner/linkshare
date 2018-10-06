@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LinkShare</title>
+    <script src="popup.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+    <link href="global.css" rel="stylesheet" />
+  </head>
+  <body>   
+    <div class="content">
+        <div style="padding: 20px 20px 20px 20px;">           
+            <h2>Open Link:</h2>
+            <input id="open_textbox" type="text" style="margin: 5px 5px 5px 0px; width:100%;">                   
+            <button id="open_btn" type="button" onclick="open_windows(document.getElementById('open_textbox').value)">Open</button>
+        </div>   
+        
+        <h3>Disable Popup-Blocker in Google Chrome:</h3>
+        <p>
+            1. Open valid LinkShare link. <br/>
+            2. At first use, Chrome will block multiple tabs from opening. <br/>
+            3. In the address bar, click the appearing Pop-up blocked symbol <img src="popupblocked.png" height="10px">. <br/>
+            4. To allow multiple tab opens for the site, select 'Always allow pop-ups from [site]' and then 'Done'.
+        </p>
+    </div>
+  </body>
+</html>		
